@@ -1,12 +1,10 @@
 ## Colour Contrast Checker
 A simple tool for checking the contrast of a two hex colours.
 
+**This is a fork of the original project to demonstrate how glamorous compares to styled-components**
+
 ### Making changes
 This tool was created using `create-react-app` and thus `react-scripts`. The following npm/yarn commands are available 
-
-As this is served through gh-pages, the production build is committed to master also. 
-
-All source can be found in the `app` directory.
 
 | Action | Yarn | Npm |
 |-|-|-|

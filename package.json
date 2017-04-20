@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "glamor": "^2.20.24",
+    "glamorous": "^3.9.0",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "styled-components": "^1.4.5"
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "prettier": "^1.1.0",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ../static ../asset-manifest.json ../favicon.ico ../index.html && cp -R build/* ../",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "format": "prettier --single-quote --print-width=120 --write src/**/**.js"
